@@ -3,7 +3,6 @@ env:
   PRIVATE_KEY_PATH: /etc/secrets/tar-bot.pem
 envSecrets:
   WEBHOOK_SECRET: tar-bot-secrets
-  PRIVATE_KEY: tar-bot-secrets
 volumeSecrets:
   - name: tar-bot-secret-files
     path: /etc/secrets
