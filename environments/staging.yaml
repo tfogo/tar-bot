@@ -1,6 +1,7 @@
 env:
   APP_ID: 246123
   PRIVATE_KEY_PATH: /etc/secrets/tar-bot.pem
+  PORT: 8080
 envSecrets:
   WEBHOOK_SECRET: tar-bot-secrets
 volumeSecrets:
